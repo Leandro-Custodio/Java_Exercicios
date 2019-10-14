@@ -1,3 +1,14 @@
+/*
+	Desenvolvedor: Leandro Artur Custodio
+	Github: Leandro-Custodio
+	Linkedin: Leandro Artur Custodio
+	&&
+	Desenvolvedor: Lucas André Besen
+	Git-hub: Lucas-Besen
+	Linkedin: Lucas André Besen
+	
+ */
+
 package Game_Rock_Paper_Scissors;
 
 import javax.swing.JOptionPane;

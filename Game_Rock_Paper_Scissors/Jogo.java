@@ -1,19 +1,31 @@
+/*
+	Desenvolvedor: Leandro Artur Custodio
+	Github: Leandro-Custodio
+	Linkedin: Leandro Artur Custodio
+	&&
+	Desenvolvedor: Lucas André Besen
+	Git-hub: Lucas-Besen
+	Linkedin: Lucas André Besen
+	
+ */
 package Game_Rock_Paper_Scissors;
 
+
 public class Jogo {
+
 	private int escolha1 = -1, escolha2 = -1;
 	private boolean ganhou, empatou;
-	
+
 	public void setPrimeiroJogador(int escolha1) {
 		this.escolha1 = escolha1;
 	}
 	//Receive first player choice
-	
+
 	public void setSegundoJogador(int escolha2) {
 		this.escolha2 = escolha2;
 	}
 	//Receive second player choice
-	
+
 	public int getEscolha1() {
 		return escolha1;
 	}
@@ -21,7 +33,7 @@ public class Jogo {
 	public int getEscolha2() {
 		return escolha2;
 	}
-	
+
 
 
 	public boolean VerificaJogador1Win() {
@@ -54,7 +66,7 @@ public class Jogo {
 	}
 	//In case of a draw returns this method in main
 
-	
+
 	public int GeraOpcao() {
 		double numero = Math.random();
 		//create a double number between 0 to 1
@@ -63,7 +75,7 @@ public class Jogo {
 		int escolha = numInt%3;
 		//The "%" guarantees the generated numbers being 0 to 2
 		//there are 3 options
-			
+
 		return escolha;
 	}
 	//Generates the option of "IA" 
